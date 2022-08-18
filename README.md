@@ -1,2 +1,2 @@
 # landing-page
-personal landing page/portfolio
+This website landing page demonstrates my ability to code and style a basic personal site.
