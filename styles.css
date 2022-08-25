@@ -1,12 +1,18 @@
 *   {
     margin: 0;
     padding: 0;
+    font-family: Helvetica, sans-serif
 }
 
 a   {
     list-style: none;
     color: #F0FFF0;
     text-decoration: none;
+}
+
+.logo   {
+    display: inline;
+    width: 100px;
 }
 
 body    {
@@ -16,7 +22,15 @@ body    {
 .nav-bar    {
     display: flex;
     justify-content: space-between;
-    margin: 0 80px;
+    margin: auto 80px;
+}
+
+.nav    {
+    margin: auto 0;
+}
+
+a   {
+    margin-left: 10px;
 }
 
 .header {
@@ -32,10 +46,22 @@ body    {
     padding: 20px 80px;
 }
 
+.mt-left    {
+    margin-right: 20px;
+    text-align: center;
+    margin: auto 20px;
+}
+
+.top-button {
+    padding-top: 10px;
+}
+
 #main-title {
     height: 200px;
     width: 300px;
-    background-color: gray;
+    background-color: whitesmoke;
+    object-fit: cover;
+    padding: 10px 10px 40px 10px;
 }
 
 .portfolio  {
@@ -44,23 +70,29 @@ body    {
     text-align: center;
 }
 
-.boxes  {
+.box-grid  {
     display: flex;
     height: 50px;
     width: 50px;
     padding: 20px;
     margin: 20px;
     width: auto;
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: auto;
 }
 
-.box1, .box2, .box3, .box4   {
+.boxes   {
     background-color: white;
     height: 100px;
+}
+
+.box-img    {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
     border-radius: 10px;
-    padding: 5px;
     border-style: solid;
+    border-width: 3px;
     border-color: #3882f6;
 }
 
@@ -84,6 +116,11 @@ body    {
     justify-content: space-around;
 }
 
+.bubble-right  {
+    margin: auto 0px;
+}
+
 footer  {
     text-align: center;
+    margin-bottom: 20px;
 }
